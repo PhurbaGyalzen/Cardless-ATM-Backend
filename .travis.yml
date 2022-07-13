@@ -1,0 +1,14 @@
+language: python
+python:
+- "3.10.5"
+# setup environment
+env:
+- DJANGO_VERSION=3.2.9
+- DJANGO_SETTINGS_MODULE='cardless_atm.settings'
+# install dependencies
+install:
+- pip install -r requirements.txt
+
+# run test scripts
+script:
+- python manage.py test 
