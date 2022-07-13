@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-te)fl)qxy^&r)w*xw&wdsoh_(^2p)(_uxdm@yacyu*_=$i6u4-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'cardless-atm.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'cardless-atm.herokuapp.com', 'cardless-atm-production.herokuapp.com']
 
 
 # Application definition
