@@ -1,8 +1,7 @@
 language: python
-
 python:
     - "3.10.5"
-
+    
 services:
     - postgresql
 # install dependencies
