@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-te)fl)qxy^&r)w*xw&wdsoh_(^2p)(_uxdm@yacyu*_=$i6u4-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'cardless-atm.herokuapp.com', 'cardless-atm-production.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -85,8 +85,12 @@ WSGI_APPLICATION = 'cardless_atm.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd4br8hnvvob18f',
+        'USER': 'bubfsvllivgvog',
+        'PASSWORD': '181e4ea12403c9f4074789626436d3abf46bec179c39373578878c55a1f54f7a',
+        'HOST': 'ec2-34-233-115-14.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
