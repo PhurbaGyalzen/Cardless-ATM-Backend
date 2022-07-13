@@ -1,3 +1,4 @@
 .env
 venv
 qrcode1.png
+__pycache__
